@@ -35,4 +35,5 @@
     <string name="hint_from">From</string>
     <string name="hint_to">To</string>
     <string name="hint_find">Find</string>
+    <string name="google_maps_key">AIzaSyCS6Mt2fzsOM8JTCHvSaZEjETtRgw-pS8s</string>
 </resources>

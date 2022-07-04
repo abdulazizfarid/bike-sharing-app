@@ -30,11 +30,10 @@ public class UserService implements IUserService {
 
 
     public void UserLogin(UserLogin userLogin, CustomCallBackFunction customCallBackFunction) {
-
-
+        customCallBackFunction.onResponse("login");
     }
     public void UserSignup(UserSignup userSignup, CustomCallBackFunction customCallBackFunction){
-
+        customCallBackFunction.onResponse("signup");
     }
 
     public User GetUserFromSharedPrefs() {

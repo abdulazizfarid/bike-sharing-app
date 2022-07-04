@@ -13,6 +13,7 @@ import com.example.bikesharingapp.Services.Interfaces.IUserService;
 import com.example.bikesharingapp.Services.Interfaces.ServiceFactory;
 import com.google.android.material.textfield.TextInputEditText;
 
+import java.util.Map;
 import java.util.Objects;
 
 public class SignupActivity extends AppCompatActivity {
@@ -49,7 +50,7 @@ public class SignupActivity extends AppCompatActivity {
 
 
     private void NavigateToHomePage() {
-        Intent i = new Intent(this, MainActivity.class);
+        Intent i = new Intent(this, MapsActivity.class);
         startActivity(i);
     }
 }
