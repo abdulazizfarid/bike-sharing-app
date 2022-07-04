@@ -32,4 +32,7 @@
     <string name="hint_confirm_password">Confirm Password</string>
     <string name="title_activity_find_location">findLocation</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="hint_from">From</string>
+    <string name="hint_to">To</string>
+    <string name="hint_find">Find</string>
 </resources>
