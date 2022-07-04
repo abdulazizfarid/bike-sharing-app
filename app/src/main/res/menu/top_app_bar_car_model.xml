@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/more_addCarModel"
+        android:contentDescription=""
+        android:title="Add Car Model"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logoutCarModel"
+        android:contentDescription=""
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>
